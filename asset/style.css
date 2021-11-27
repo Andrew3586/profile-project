@@ -1,16 +1,24 @@
-.header {text-align: right;
-color: white;
-background-color: darkgreen;
-width: 100%;
-height: 70px;
-font-size: 21px;
-line-height: 70px;
-font-family: "Lucida Sans Unicode";
-border-bottom: 10px solid pink;
-word-spacing: 40px;
+.header {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+padding-left: 10px;
+
+}
+#links {
+    display: flex;
+    list-style-type: none;
+    
+}
+li > a {
+    color: white;
+    margin-right: 10px;
 }
 
-
-.h1 {
-    color: blue;
+body {
+    margin:0%
 }
+
