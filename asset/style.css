@@ -23,10 +23,11 @@ li > a {
 
 body {
     margin:0%
-    
+
 }
 
 .banner {
-    background-size: cover;
-}
+    display: flex;
+    height: 545px;     
+} 
 
