@@ -6,6 +6,14 @@
     align-items: center;
     padding-right: 10px;
     padding-left: 10px;
+       
+}
+
+.photo {
+    display: flex;
+    height: 75px;    
+    width: 75px;
+    margin-right: 1100px;
     
 }
 #links {
@@ -28,6 +36,8 @@ body {
 
 .banner {
     display: flex;
-    height: 545px;     
+    height: 400px;    
+    width: 100%;
+    
 } 
 
