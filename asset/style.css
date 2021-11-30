@@ -13,6 +13,7 @@
     display: flex;
     
 }
+    
 
 .photo img {
         display: block;
@@ -39,15 +40,11 @@ body {
 
 }
 
-.img {
+.banner img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    justify-content: space-between;
-}
-.banner {
-    transform: translateY( -80px) translateX(150px);
-    font-size: 25px;
+
 }
 
 .about-me {
