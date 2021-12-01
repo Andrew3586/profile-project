@@ -61,7 +61,7 @@ body {
 .content {
     display: flex;
     font-size: 25px;
-    padding-left: 350px;
+    padding-left: 60px;
     padding-right: 100px;
     padding-bottom: 50px;
     
@@ -69,18 +69,24 @@ body {
 
 .content h2 {    
     min-width: 200px;
-       
+           
 }
 
 
-.contacts h3{
+.contacts h3 {
     font-size:38px;
-         
+    
 }
+
+section { 
+    display: flex;
+}
+
 .section-heading {
     display: flex;
     border-right:  3px solid black;
-    padding-left: 200px;
-    padding-right: 200px;
-    font-size: 30px;
-}
+    padding-left: 190px;
+    padding-right: 25px;
+    font-size: 25px;
+    
+} 
