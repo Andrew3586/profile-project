@@ -72,13 +72,7 @@ body {
     
 }
 
-.contacts {
-    display: flex;
-    font-size: 15px;
-    padding-left: 250px;
-    padding-right: 80px;
-    padding-top: 100px;
-}
+
 .contacts h3{
     font-size:38px;
     
