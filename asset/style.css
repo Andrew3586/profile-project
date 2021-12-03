@@ -53,31 +53,36 @@ body {
 }
 
 .bottom-left {
-    position: absolute;
-    bottom: 10px;
-    left: 80px;
-    font-size: 40px;
+     position: absolute;
+     bottom: 10px;
+     left: 80px;
+     font-size: 40px;
     
   }
 
   .border1 {
-      display: flex;
-      flex-wrap: wrap;
-  width: 100%;
-  border: 2px solid green;
-  margin: 50px;
-  margin-left: 60px;
-  height: auto;
+     display: flex;
+     flex-wrap: wrap;
+     width: 1000px;
+     border: 2px solid green;
+     margin: 50px;
+     margin-left: 60px;
+     height: 800px;
+     border-collapse: separate;
+     border-spacing: 15px;
+
   }
 
+
   .border2 {
+     display: flex;
+     width: 49%;
+     border: 2px solid green;
+     margin-top: 400px;
+     margin: 50px;
+     margin-left: 60px;
+     height: 200px;
     
-    width: 49%;
-    border: 2px solid green;
-    margin-top: 400px;
-    margin: 50px;
-    margin-left: 60px;
-    height: 200px;
   }
 
 .content {
@@ -97,7 +102,7 @@ body {
 
 .contacts h3 {
     font-size:38px;
-    
+    margin: 50px;
 }
 
 .content-work {
@@ -119,7 +124,7 @@ section {
     padding-left: 190px;
     padding-right: 25px;
     font-size: 25px;
-    
+    margin: -25px;
 } 
 
 .space {
