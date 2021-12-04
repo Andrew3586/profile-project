@@ -87,7 +87,10 @@ body {
      flex-direction: column;
      justify-content: space-around;
      
-  }
+    }
+
+    
+    
 
  .biggestBox img {
     width: 1530px;
@@ -96,6 +99,16 @@ body {
    bottom: 115px;
    border: 2px solid green;
    
+  }
+  .zoom {
+    transition: transform .2s;
+    
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1.1); 
   }
 
   
