@@ -117,23 +117,31 @@ body {
 
       }
 
-    .mediumBox img {
-        width: 765px;
-        height: 350px;
+      .mediumBox img {
+       display: block;
+       width: 765px;
        position: relative;
        bottom: 45px;
        border: 2px solid green;
+       Left: 85px;
+       right: 95px;
+      
+       }
 
-    }
-
-  .smallBox {
+    
+  /* .smallBox { */
     position: relative;
     display: inline-block;
     width: 49%;
     height: 200px;
+
     
+      }
 
       }
+
+
+
 .content {
     display: flex;
     font-size: 25px;
