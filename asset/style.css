@@ -6,9 +6,7 @@
     align-items: center;
     padding-right: 10px;
     padding-left: 10px; 
-    position: sticky;
-    top: 0;
-  
+      
 }
 
 * {
@@ -54,6 +52,17 @@ body {
     
 }
 
+.section-heading {
+    display: flex;
+    border-right:  3px solid black;
+    border-spacing: 25px;
+    font-size: 25px;
+    height: 120px;
+    margin-right: 1700px;
+    margin-left: 56px;
+} 
+
+
 .bottom-left {
      position: absolute;
      bottom: 10px;
@@ -82,7 +91,7 @@ body {
     width: 1530px;
     height: 600px;
    position: relative;
-   bottom: 140px;
+   bottom: 60px;
    border: 2px solid green;
    
   }
@@ -119,26 +128,34 @@ body {
 
       .mediumBox img {
        display: block;
-       width: 765px;
+       width: 758px;
        position: relative;
-       bottom: 45px;
+       bottom: -35px;
        border: 2px solid green;
-       Left: 85px;
+       Left: 275px;
        right: 95px;
-      
+       margin: 5px;
+             
        }
 
     
-  /* .smallBox { */
-    position: relative;
-    display: inline-block;
-    width: 49%;
-    height: 200px;
-
-    
-      }
+     .smallBox {     
+        position: relative;
+        display: inline-block;
+        
 
       }
+
+     .smallBox img {
+        display: block;
+        width: 758px;
+        position: relative;
+        bottom: -25px;
+        border: 2px solid green;
+        Left: 255px;
+        right: 95px; 
+        margin: 15px;
+    }
 
 
 
@@ -177,18 +194,7 @@ section {
     
 }
 
-.section-heading {
-    display: flex;
-    border-right:  3px solid black;
-    border-spacing: 25px;
-    font-size: 25px;
-    height: 120px;
-    margin-right: 1700px;
-    margin-left: 56px;
-} 
-
-
-    
+   
 .lower {
    margin-left: 750px; 
    position: relative;
