@@ -60,12 +60,14 @@ body {
     height: 120px;
     margin-right: 1700px;
     margin-left: 56px;
+    margin-top: 80px;
+    margin-bottom: -65px;
 } 
 
 
 .bottom-left {
      position: absolute;
-     bottom: 10px;
+     bottom: 30px;
      left: 80px;
      font-size: 40px;
     
@@ -78,7 +80,7 @@ body {
 
   .biggestBox {
      display:flex;     
-     width: 70%;
+     width: 0%;
      margin: 50px;
      margin-left: 270px;
      height: 320px;
@@ -91,22 +93,12 @@ body {
     width: 1530px;
     height: 600px;
    position: relative;
-   bottom: 60px;
+   bottom: 115px;
    border: 2px solid green;
    
   }
 
-  /* .mediumBox { */
-    position: relative;
-    border: 2px solid green;
-    height: auto;
-    width: 99%;
-    display: flex;
-    align-self: center;
-    justify-content: space-around;
-
-  }
-
+  
   .biggerBox {     
     position: relative;
     width: 75%;
@@ -135,30 +127,11 @@ body {
        Left: 275px;
        right: 95px;
        margin: 5px;
-             
+                    
        }
 
     
-     .smallBox {     
-        position: relative;
-        display: inline-block;
-        
-
-      }
-
-     .smallBox img {
-        display: block;
-        width: 758px;
-        position: relative;
-        bottom: -25px;
-        border: 2px solid green;
-        Left: 255px;
-        right: 95px; 
-        margin: 15px;
-    }
-
-
-
+          
 .content {
     display: flex;
     font-size: 25px;
@@ -198,6 +171,6 @@ section {
 .lower {
    margin-left: 750px; 
    position: relative;
-   bottom: 60px;
-   
+   bottom: 20px;
+      
 }
