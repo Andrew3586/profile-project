@@ -110,8 +110,7 @@ body {
     -webkit-transform: scale(1);
     transform: scale(1.1); 
   }
-
-  
+   
   .biggerBox {     
     position: relative;
     width: 75%;
