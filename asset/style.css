@@ -67,10 +67,28 @@ body {
 
 .bottom-left {
      position: absolute;
-     bottom: 30px;
+     bottom: 10px;
      left: 80px;
      font-size: 40px;
     
+  }
+
+  .projectbottom {
+    background-color: lightblue;
+    padding: 10px;
+   
+ 
+        
+  }
+
+   
+  .projectbottom {
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    font-size: 40px;
+    
+
   }
   .workSection {
     display: flex;
